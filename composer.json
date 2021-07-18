@@ -1,0 +1,19 @@
+{
+  "license": "Unlicense",
+  "authors": [
+    {
+      "name": "robymus",
+      "email": "r@r2.io",
+	    "role": "Wizard"
+    }
+  ],
+  "require": {
+    "php": ">=8",
+    "linecorp/line-bot-sdk": "^7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bot\\": "src/Bot/"
+    }
+  }
+}
